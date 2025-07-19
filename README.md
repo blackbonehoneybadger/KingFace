@@ -1,6 +1,8 @@
 # KingFace
 
-This repository contains a simple proof-of-concept for the **KingFace** Web3 social network. It includes a React frontend that demonstrates connecting a Phantom wallet and uploading media content into three columns for videos, audio and images.
+*Where creators become kings.*
+
+This repository hosts an early prototype of the **KingFace** Web3 social network built on Solana. The current demo showcases a React frontend that lets users connect a Phantom wallet and upload media into three separate columns for video, audio and images.
 
 ## Development
 
@@ -20,3 +22,11 @@ The application will be available at `http://localhost:5173` by default.
 * Upload videos, audio files and images which appear in separate columns
 
 This is an early MVP and does not include backend or blockchain integration yet.
+
+## Planned features
+
+The long‑term vision for KingFace includes:
+
+* Minting user content as NFTs on Solana
+* The **KFT** utility token powering likes and marketplace transactions
+* A referral program called **Roots Family** to grow the community
