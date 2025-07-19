@@ -30,3 +30,5 @@ The long‑term vision for KingFace includes:
 * Minting user content as NFTs on Solana
 * The **KFT** utility token powering likes and marketplace transactions
 * A referral program called **Roots Family** to grow the community
+
+For a complete project specification, see [docs/TZ.md](docs/TZ.md).
