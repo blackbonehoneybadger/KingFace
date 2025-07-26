@@ -1,0 +1,129 @@
+.App {
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+  min-height: 100vh;
+}
+
+.wallet-adapter-modal-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.wallet-adapter-modal {
+  background-color: #1a1a1a;
+  border: 1px solid #8B5CF6;
+  border-radius: 12px;
+}
+
+.wallet-adapter-modal-title {
+  color: #ffffff;
+}
+
+.wallet-adapter-modal-list {
+  background-color: #1a1a1a;
+}
+
+.wallet-adapter-modal-list-item {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  transition: all 0.2s ease;
+}
+
+.wallet-adapter-modal-list-item:hover {
+  background-color: #2d2d2d;
+  border-color: #8B5CF6;
+}
+
+.wallet-adapter-modal-list-item:not([disabled]):hover {
+  background-color: #2d2d2d;
+}
+
+.wallet-adapter-button {
+  background: linear-gradient(135deg, #8B5CF6 0%, #A855F7 100%);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  transition: all 0.2s ease;
+}
+
+.wallet-adapter-button:hover {
+  background: linear-gradient(135deg, #7C3AED 0%, #9333EA 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.wallet-adapter-button[disabled] {
+  background: #4a5568;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Custom gradient backgrounds */
+.gradient-king {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #8B5CF6 100%);
+}
+
+.gradient-king-hover {
+  background: linear-gradient(135deg, #FFE55C 0%, #FF8C00 50%, #A855F7 100%);
+}
+
+/* Tree animation styles */
+.tree-container {
+  perspective: 1000px;
+}
+
+.tree-branch {
+  transform-origin: bottom center;
+  animation: sway 3s ease-in-out infinite;
+}
+
+@keyframes sway {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(2deg); }
+}
+
+.leaf {
+  animation: float 2s ease-in-out infinite alternate;
+}
+
+@keyframes float {
+  from { transform: translateY(0px); }
+  to { transform: translateY(-5px); }
+}
+
+/* Post card styles */
+.post-card {
+  background: linear-gradient(135deg, rgba(26, 26, 26, 0.9) 0%, rgba(45, 45, 45, 0.9) 100%);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  transition: all 0.3s ease;
+}
+
+.post-card:hover {
+  border-color: rgba(139, 92, 246, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.15);
+}
+
+/* Like button effect */
+.like-btn {
+  transition: all 0.2s ease;
+}
+
+.like-btn:hover {
+  transform: scale(1.1);
+}
+
+.like-btn:active {
+  transform: scale(0.95);
+}
+
+/* Glow effect for special elements */
+.glow-gold {
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+.glow-purple {
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.3);
+}
