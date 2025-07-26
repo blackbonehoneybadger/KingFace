@@ -11,10 +11,6 @@ import base64
 import hashlib
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
-from solana.rpc.async_api import AsyncClient
-from solders.pubkey import Pubkey
-from solders.keypair import Keypair
-import base58
 
 load_dotenv()
 
@@ -33,8 +29,6 @@ app.add_middleware(
 client = AsyncIOMotorClient(os.getenv("MONGO_URL"))
 db = client.kingface
 
-# Solana connection
-solana_client = AsyncClient(os.getenv("SOLANA_RPC_URL"))
 security = HTTPBearer()
 
 # Pydantic models
